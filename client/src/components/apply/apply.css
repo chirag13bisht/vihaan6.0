@@ -1,0 +1,62 @@
+.apply{
+    height: 145vh;
+    background: url("../../assets/login-back.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.apply-title{
+    color: #0B2447;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.apply-input{
+    display: flex;
+    flex-direction: column;
+}
+.apply-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-flow: column;
+}
+.apply-container .apply-input{
+    background: #0B2447;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.701);
+    padding: 30px;
+    width: 500px;
+}
+.apply-container .apply-input input{
+    padding: 10px 20px;
+    margin: .5rem 0;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.add-card{
+    color: white;
+    text-align: center;
+}
+.aadhar,
+.pan{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.add-btn,
+.sub-btn{
+    background: rgba(0, 0, 0, 0.411);
+    transition: .2s ease-in-out;
+}
+.sub-btn:hover{
+    background-color: transparent;
+}
+.add-btn:hover{
+    background-color: transparent;
+}

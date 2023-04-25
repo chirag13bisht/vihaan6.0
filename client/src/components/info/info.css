@@ -1,0 +1,17 @@
+
+.info-container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-flow: column;
+}
+.about-title{
+    margin-bottom: 4rem;
+}
+.info-data{
+    max-width: 900px;
+    text-align: center;
+    margin-top: 2rem;
+}

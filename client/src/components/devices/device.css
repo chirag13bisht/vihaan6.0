@@ -1,0 +1,42 @@
+.device-container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-flow: column;
+}
+.boxer{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    border: 2px solid grey;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+    transition: transform ease 300ms;
+}
+.card:hover{
+    transform: translate(0, -10px);
+}
+.card-btn{
+    background-color: rgb(2, 2, 24);
+}
+.bmi-app{
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    color: white;
+}
+.calorie-app{
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    color: white;
+}

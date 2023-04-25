@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.7)),
+    url("../../assets/main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.home-container{
+    row-gap: 7rem;
+}
+
+.home--social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+    position: absolute;
+    top: 35%;
+    right: 9%;
+  }
+  
+  .home--social-icon {
+    font-size: 1.35rem;
+    color: #0B2447;
+  }
+  .home--social-icon:hover {
+    color: #0B2447;
+  }
+  .home--scroll {
+    position: absolute;
+    top: 90%;
+    right: 9%;
+    margin-left: 9.25rem;
+    font-size: 1.5rem;
+  }
+  .health-span{
+    color: #17665e;
+  }
+  .home--scroll-name {
+    text-decoration: none;
+    color: #edeade;
+    margin-right: 0.25rem;
+    margin-left: 2px;
+    font-size: 15px;
+    outline: none;
+  }
+  .uil-mouse-alt-2 {
+    color: #edeade;
+  }
+  .home--scroll-arrow {
+    font-size: 1.25rem;
+    color: #edeade;
+  }
+  .data{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: #0B2447;
+  }
+  .data h1{
+    font-size: 60px;
+  }
+  button{
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+  }

@@ -1,0 +1,70 @@
+.login{
+    height: 100vh;
+    background: url("../../assets/login-back.jpg") no-repeat;
+    background-size: cover;
+    background-position: centers;
+}
+.login-title{
+    color: #0B2447;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.login-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-flow: column;
+}
+.login-container form{
+    background: #0B2447;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.701);
+    padding: 30px;
+    width: 500px;
+}
+.sign-with{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+}
+.login-input input{
+    padding: 10px 20px;
+    margin: 1rem 0;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.cred{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.cred a{
+    color: grey;
+}
+.dont{
+    margin-top: 2rem;
+    text-align: center;
+    color: grey;
+}
+.dont a{
+    color: white;
+}
+.sign-button{
+    transition: .2s ease-in-out;
+}
+.sign-button:hover{
+    background: rgba(255, 255, 255, 0.068);
+}

@@ -1,0 +1,58 @@
+.record{
+    height: 120vh;
+    background: url("../../assets/login-back.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.record-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-flow: column;
+}
+.record-container form{
+    background: #0B2447;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.701);
+    padding: 30px;
+    width: 500px;
+}
+
+.record-data{
+    display: flex;
+    flex-direction: column;
+}
+.record-data input{
+    padding: 10px 20px;
+    margin: 1rem 0;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.title1{
+    color: #0B2447;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.issue-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.data-submit{
+    background: rgba(0, 0, 0, 0.411);
+    transition: .2s ease-in-out;
+}
+.data-submit:hover{
+    background-color: transparent;
+}
